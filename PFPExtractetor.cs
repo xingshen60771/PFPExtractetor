@@ -104,10 +104,10 @@ namespace PFPExtractetor
                                         "个文件后的偏移" + fs.Position.ToString("X") + "\n" +
                                         "-------------------\n\n");
 
-                    // 加入到五元List
+                    // 加入到四元List
                     pfpList.Add(Tuple.Create(flieNameLengh, flieName, fileOffset, fileSizeBit));
                 }
-                // 返回五元List
+                // 返回四元List
                 return pfpList;
             }
         }
